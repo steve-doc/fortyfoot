@@ -46,9 +46,13 @@
 
 ## Credits
 
-### Content
-    
+### Code
+
     Any code that came from another source
+### Content
+
+    History section based on 40ft wikipedia entry https://en.wikipedia.org/wi
+
 
 ### Media
 
