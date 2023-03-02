@@ -54,6 +54,11 @@ header {
     color: ivory;
 }
 
+#nav-menu a:hover {
+    color: #3a3a3a;
+    background-color: ivory;
+}
+
 #nav-menu li {
     display: inline;
 }
