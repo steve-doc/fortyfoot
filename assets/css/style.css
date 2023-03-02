@@ -77,3 +77,26 @@ header {
     /* background: url(https://unsplash.it/2000/600) no-repeat center center; */
     background: url(../images/40-foot-hero.png) no-repeat center center;
 }
+
+
+/* Footer */
+
+footer {
+    background-color: #3a3a3a;
+    /* height: 75px; */
+}
+
+.social {
+    text-align: center;
+  }
+  
+  .social li {
+    display: inline;
+  }
+  
+  .social i {
+    font-size: 130%;
+    margin: 1%;
+    padding: 1%;
+    color: ivory;
+  }
