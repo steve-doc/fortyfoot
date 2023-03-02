@@ -18,6 +18,48 @@ h1, h2, h3 {
     color: black;
 }
 
+/* header */
+
+header {
+    height: 75px;
+    background-color: #3a3a3a;
+}
+
+#logo, #nav-menu {
+    line-height: 75px;
+}
+
+#logo {
+    color: ivory;
+    font-size: 300%;
+    float: left;
+    margin-left: 30px;
+}
+
+#nav-menu {
+    float: right;
+    font-size: 120%;
+
+}
+
+#nav-menu li {
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: ivory;
+}
+
+#nav-menu li {
+    display: inline;
+}
+
+#nav-current {
+    border-bottom: 1px solid ivory;
+}
+
 /* hero image */
 
 #hero-container {
