@@ -102,6 +102,12 @@ footer {
   .social i {
     font-size: 130%;
     margin: 1%;
-    padding: 1%;
+    padding: .5%;
+    border-radius: 50%;
     color: ivory;
+  }
+
+  .social i:hover {
+    color: #3a3a3a;
+    background-color: ivory;
   }
