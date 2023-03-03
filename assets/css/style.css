@@ -74,6 +74,7 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-bottom: 30px;
 }
 
 #hero-image {
@@ -83,6 +84,72 @@ header {
     background: url(../images/40-foot-hero.png) no-repeat center center;
 }
 
+/* Healthy section */
+
+#healthy-container {
+    height: 1200px;
+    margin: 20px 50px;
+    overflow: hidden;
+    clear: both;
+}
+
+.health-sub-cont {
+    /* border: 1px solid black; */
+    height: 25%;
+    margin-top: 10px;
+    clear: both;
+}
+
+
+.health-sub-cont h3 {
+    font-size: 3vw;
+}
+
+.health-sub-cont p {
+    font-size: 1.5vw;
+
+}
+
+.health-sub-cont img {
+    /* border-radius: 50%; */
+    padding-bottom: 10px;
+}
+
+#healthy-title {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 30px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.one-third {
+    width: 33%;
+    /* display: flex;
+    align-items: center; */
+}
+
+.two-third {
+    width: 66%;
+    /* display: flex;
+    align-items: center; */
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .spacer {
+    clear: both;
+  }
 
 /* Footer */
 
