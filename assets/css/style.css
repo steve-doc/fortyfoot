@@ -84,28 +84,21 @@ header {
     background: url(../images/40-foot-hero.png) no-repeat center center;
 }
 
-/* Healthy section */
+/* Healthy Habit section */
 
 #healthy-container {
-    /* height: 1200px; */
-    /* margin: 20px 50px; */
-    /* overflow: hidden; */
     background-color: #A5DFFE;
-    clear: both;
+    padding-bottom: 30px;
 }
 
-.health-sub-cont {
-    /* border: 1px solid black; */
-    /* height: 25%; */
-    padding: 10px 0;    
-    background-color: #6399C9;
-    clear: both;
+.sub-cont {
+    padding: 10px 75px;    
 }
 
 .flex-parent {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .flex-reverse {
@@ -116,21 +109,15 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-content: center */
 }
 
-.health-sub-cont h3 {
-    /* font-size: 3vw; */
+.sub-cont div {
+    padding: 0 40px;
 }
 
-.health-sub-cont p {
-    /* font-size: 1.5vw; */
-
-}
-
-.health-sub-cont img {
-    /* border-radius: 50%; */
-    /* padding-bottom: 10px; */
+.sub-cont img {
+    border-radius: 50%;
+    padding: 0 40px;
 }
 
 #healthy-title {
@@ -141,16 +128,10 @@ header {
 
 .one-third {
     width: 33%;
-    /* position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); */
 }
 
 .two-third {
     width: 66%;
-    height: 100%;
 }
 
 hr {
@@ -159,9 +140,19 @@ hr {
     margin: 5px 0;
   }
 
-  .spacer {
-    clear: both;
-  }
+
+/* History Section */
+
+#history-container {
+    background-color: #6399c9;
+    padding-bottom: 30px;
+}
+
+#history-title {
+    text-align: center;
+    font-size: 200%;
+    padding: 30px 0;
+}
 
 /* Footer */
 
