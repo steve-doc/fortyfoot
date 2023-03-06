@@ -92,6 +92,18 @@ header {
     padding-bottom: 30px;
 }
 
+#healthy-title {
+    text-align: center;
+    font-size: 200%;
+    padding: 30px 0;
+}
+
+#healthy-intro {
+    text-align: center;
+    font-size: 130%;
+    padding: 0 20% 40px 20%;
+}
+
 .sub-cont {
     padding: 10px 75px;    
 }
@@ -146,17 +158,6 @@ header {
     margin: 0 40px;
 }
 
-#healthy-title {
-    text-align: center;
-    font-size: 200%;
-    padding: 30px 0;
-}
-
-#healthy-intro {
-    text-align: center;
-    font-size: 100%;
-    padding: 0 20% 40px 20%;
-}
 
 .one-third {
     width: 40%;
