@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600&family=Merriweather:wght@300;400&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +14,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Josefin Slab';
-    font-weight: 400;
+    font-weight: 600;
     color: black;
 }
 
@@ -99,7 +99,7 @@ header {
 .flex-parent {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .flex-reverse {
@@ -113,12 +113,37 @@ header {
 }
 
 .sub-cont div {
-    padding: 0 40px;
+    /* padding: 0 40px; */
 }
 
+.sub-cont h3 {
+    font-size: 180%;
+}
+
+.sub-cont p {
+    font-size: 120%;
+    font-weight: 50;
+}
 .sub-cont img {
     border-radius: 50%;
-    padding: 0 40px;
+}
+
+.image-outer {
+    /* width: 620px; */
+    border: 2px solid #3a3a3a;
+    background-color: #6399c9;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 40px;
+}
+
+.image-outer-history {
+    /* width: 620px; */
+    border: 2px solid #3a3a3a;
+    background-color: #A5DFFE;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 40px;
 }
 
 #healthy-title {
@@ -134,7 +159,7 @@ header {
 }
 
 .one-third {
-    width: 33%;
+    width: 40%;
 }
 
 .two-third {
