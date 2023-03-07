@@ -60,6 +60,8 @@
     40-foot-gentlemans-bathing.jpeg - The Irish Independant https://www.independent.ie/lifestyle/turning-the-tide-30113564.html 
     40-foot-women-rights.png - Meanwhile in Ireland website https://meanwhileinireland.com/on-this-day-irish-women-protested-men-only-bathing-at-the-forty-foot/
     40-foot-james-joyce.jpeg The Art of Dark Pod website https://artofdarkpod.com/the-underbred-james-joyce/
+    sandycove-beack.png Dublin Guide https://www.dublinguide.ie/places/sandycove-beach
+    killiney-hill.png Curious Ireland https://curiousireland.ie/killiney-obelisk/
 
 
 ### Acknowledgements
