@@ -42,7 +42,7 @@
     <!-- Newsleter form section -->
     <section id="newsletter-form">
     
-        <form id="sign-up-form" action="https://formdump.codeinstitute.net/" method="POST">
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="POST">
             
             <h2>40 Foot Newsletter</h2>
             <h3>Stay in touch with upcoming events</h3>
@@ -65,27 +65,61 @@
         
     </section>
 
-<!-- tide iframe -->
-    <div class="one-third" id="tide">
+    <!-- weather inframe -->
+    <div>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/53d29n6d12/sandycove/" data-label_1="SANDYCOVE" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-theme="original" >SANDYCOVE WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+    </div>
 
-        <h2>Tides today</h2>
-        <script type="text/javascript" onload="createTideInstance('tidewidget__642', { includeMap: false, includeTitle: false, includeStyles: true, numberDays: 1 })" src="https://tides.today/en/c/ireland/county-dublin/dun-laoghaire/widget.js" async></script><div id="tidewidget__642"></div>
+
+
+    <div class="flex-parent-about">
+        <!-- tide iframe -->
+        <div class="tide one-third">
+
+            <h2>Tides today</h2>
+            <script type="text/javascript" onload="createTideInstance('tidewidget__642', { includeMap: false, includeTitle: false, includeStyles: true, numberDays: 1 })" src="https://tides.today/en/c/ireland/county-dublin/dun-laoghaire/widget.js" async></script><div id="tidewidget__642"></div>
+
+        </div>
+
+        <div class="flex-text-parent one-third safety">
+            <h2>Safety</h2>
+            <hr>
+            <p>
+                There are many safety warning signs at the 40 Foot.  Please take care to read them before entering the water.  The main hazards are the rocks, both visibile and beneath the water, so pay particular attention when entering..  Higher tides are the prefered time to go swimming.  Please also pay attention to the weather forecast to avoid high waves.  It is always recommended you swim with another competent swimmer.
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="flex-parent-about">
+
+
+        <div class="map one-third">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.9995513630456!2d-6.115902883809036!3d53.28954307996714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486706479548bae7%3A0xd6e503e97fd06e11!2sForty%20Foot!5e0!3m2!1sen!2sie!4v1678125069488!5m2!1sen!2sie" width="100%" height="350px" margin-bottom="30px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="flex-text-parent one-third">
+            <h2>How to get here</h2>
+            <hr>
+            <ul>
+                <li>Bicicle - Use the coastal mobility route where possible. Plenty of cycle parking. Also possible to use public bike rental apps</li>
+                <li>Car - Parking is limited to street parking</li>
+                <li>DART - Sandycove and Glastule station - 10 min walk</li>
+            </ul>
+
+        </div>
+
+
 
     </div>
 
-<!-- weather inframe -->
-<div>
-    <a class="weatherwidget-io" href="https://forecast7.com/en/53d29n6d12/sandycove/" data-label_1="SANDYCOVE" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-theme="original" >SANDYCOVE WEATHER</a>
-    <script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-    </script>
-</div>
 
-<!-- map iframe -->
+    <!-- map iframe -->
 
-<div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.9995513630456!2d-6.115902883809036!3d53.28954307996714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486706479548bae7%3A0xd6e503e97fd06e11!2sForty%20Foot!5e0!3m2!1sen!2sie!4v1678125069488!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
 
 
     <!-- Footer Section -->

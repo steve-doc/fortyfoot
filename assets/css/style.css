@@ -105,7 +105,7 @@ header {
 }
 
 .sub-cont {
-    padding: 10px 75px;    
+    padding: 10px 30px;    
 }
 
 .flex-parent {
@@ -164,7 +164,7 @@ header {
 }
 
 .two-third {
-    width: 66%;
+    width: 60%;
 }
 
 hr {
@@ -196,7 +196,7 @@ footer {
 
 .social {
     text-align: center;
-  }
+    }
   
   .social li {
     display: inline;
@@ -217,15 +217,31 @@ footer {
 
   /* about page */
 
-  #tide {
-    background-color: #1F567C;
-    color: ivory;
-  }
+.tide {
+    padding: 0 30px;
+}
 
-  #tide h2{
+.map {
+    padding: 0 30px;  
+}
+
+.flex-parent-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #1F567C;
     color: ivory;
-  }
+    padding-bottom: 30px;
+}
+
+.flex-parent-about h2 {
+    color: ivory;
+    }
+
+.flex-parent-about hr {
+    border-top: 1px solid ivory;
+}
+
 
   /* Newsletter form */
 
@@ -237,7 +253,7 @@ footer {
     height: 600px;
   }
 
-  #sign-up-form {
+  .signup-form {
     margin: 3% 3% 0 0;
     color: ivory;
     background-color: rgba(60, 60, 60, 0.6);
@@ -247,8 +263,16 @@ footer {
     padding: 15px;
   }
 
-  #sign-up-form h2, h3, hr {
+  .signup-form h2 {
     color: ivory;
+  }
+
+  .signup-form h3 {
+    color: ivory;
+  }
+
+  .signup-form hr {
+    border-top: 1px solid ivory;
   }
 
   .text-input {
