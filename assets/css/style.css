@@ -98,7 +98,7 @@ header {
     padding: 30px 0;
 }
 
-#healthy-intro {
+.intro-text {
     text-align: center;
     font-size: 130%;
     padding: 0 20% 40px 20%;
@@ -136,6 +136,12 @@ header {
     font-size: 120%;
     font-weight: 50;
 }
+
+.sub-cont li {
+    font-size: 120%;
+    font-weight: 50;
+}
+
 .sub-cont img {
     border-radius: 50%;
 }
@@ -236,8 +242,9 @@ footer {
   /* about page */
 
 .tide {
-    padding: 0 30px;
+    padding: 30px 30px;
 }
+
 
 .map {
     padding: 0 30px;  
