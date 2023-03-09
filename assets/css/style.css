@@ -21,27 +21,32 @@ h1, h2, h3 {
 /* header */
 
 header {
-    height: 75px;
     background-color: #3a3a3a;
+    padding: 10px;    
+    padding-left: 30px;
 }
 
-#logo, #nav-menu {
-    line-height: 75px;
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-#logo {
+#logo{
     color: ivory;
-    font-size: 300%;
-    float: left;
-    margin-left: 30px;
+    font-size: 3rem;
+
 }
 
 /* Nav elements */
 
 #nav-menu {
     float: right;
-    font-size: 120%;
-
+    font-size: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #nav-menu li {
@@ -91,14 +96,15 @@ header {
 
 .section-title {
     text-align: center;
-    font-size: 200%;
+    font-size: 2rem;
     padding: 30px 0;
+    /* align-items: center;
+    align-content: center; */
 }
 
-.intro-text {
-    text-align: center;
-    font-size: 130%;
-    padding: 0 20% 40px 20%;
+.section-title p{
+    font-size: 1.1rem;
+    padding: 20px 20%;
 }
 
 .sub-cont {
@@ -122,16 +128,16 @@ header {
 }
 
 .sub-cont h3 {
-    font-size: 180%;
+    font-size: 1.8em;
 }
 
 .sub-cont p {
-    font-size: 120%;
+    font-size: 1.1em;
     font-weight: 50;
 }
 
 .sub-cont li {
-    font-size: 120%;
+    font-size: 1.1em;
     font-weight: 50;
 }
 
@@ -200,7 +206,7 @@ hr {
 
 #history-title {
     text-align: center;
-    font-size: 200%;
+    font-size: 2em;
     padding: 30px 0;
 }
 
@@ -209,7 +215,6 @@ hr {
 
 footer {
     background-color: #3a3a3a;
-    /* height: 75px; */
 }
 
 .social {
@@ -221,7 +226,7 @@ footer {
   }
   
   .social i {
-    font-size: 130%;
+    font-size: 1.3em%;
     margin: 1%;
     padding: .5%;
     border-radius: 50%;
@@ -326,6 +331,14 @@ footer {
 
   @media screen and (max-width:1200px) {
     
+    #logo {
+        font-size: 2.5em;
+    }
+
+    #nav-menu {
+        font-size: 1em;
+    }
+
     #hero-container {
         height: 300px;
         width: 100%;
@@ -344,6 +357,23 @@ footer {
         align-items: center;
     }
 
+    .flex-parent-about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map, .tide {
+        width: 100%;
+    }
+
+    .directions {
+        margin-top: 20px;
+    }
+
+    .directions li {
+        text-align: left;
+    }
+
     .sub-cont {
         margin: 0;
         padding: 0;
@@ -355,7 +385,7 @@ footer {
         height: 450px;
     }
   
-    .image-outer img {
+    .image-outer img, .image-outer-history img {
         max-width: 450px;
     }
 
@@ -371,9 +401,17 @@ footer {
 
   }
 
-  /* For medium sizes from 950px wide and down */
-@media screen and (max-width:950px) {
+  /* For medium sizes from 750px wide and down */
+@media screen and (max-width:750px) {
    
+    #logo {
+        font-size: 1.8em;
+    }
+
+    #nav-menu {
+        font-size: 0.8em;
+    }
+
     #hero-container {
         height: 150px;
         width: 100%;
@@ -387,13 +425,17 @@ footer {
         background: url(../images/40-foot-hero-small.png) no-repeat center center/cover;
     }
    
+    #newsletter-form{
+        height: 400px;
+    }
+
     .image-outer, .image-outer-history{
         margin: 10px;
         width: 350px;
         height: 350px;
     }
   
-    .image-outer img {
+    .image-outer img, .image-outer-history img {
         max-width: 350px;
     }
 }
