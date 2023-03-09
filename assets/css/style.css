@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: merriweather; serif, sans-serif;
+    font-family: Merriweather, serif, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -74,15 +74,12 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    /* margin-bottom: 30px; */
 }
 
 #hero-image {
     height: 650px;
     width: 100%;
-
-    /* background: url(https://unsplash.it/2000/600) no-repeat center center; */
-    background: url(../images/40-foot-hero.png) no-repeat center center;
+    background: url(../images/40-foot-hero.png) no-repeat center center/cover;
 }
 
 /* Healthy Habit section */
@@ -124,10 +121,6 @@ header {
     justify-content: center;
 }
 
-.sub-cont div {
-    /* padding: 0 40px; */
-}
-
 .sub-cont h3 {
     font-size: 180%;
 }
@@ -147,7 +140,8 @@ header {
 }
 
 .image-outer {
-    /* width: 620px; */
+    width: 600px;
+    height: 600px;
     border: 2px solid #3a3a3a;
     background-color: #6399c9;
     border-radius: 50%;
@@ -325,3 +319,81 @@ footer {
   .signup-form .signup-button:active  {
     padding-bottom: 2px;
   }
+
+  /* Media queries */
+
+  /* For tablet size screens - 1200px down */
+
+  @media screen and (max-width:1200px) {
+    
+    #hero-container {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #hero-image {
+        height: 300px;
+        width: 100%;
+        background: url(../images/40-foot-hero-mid.png) no-repeat center center/cover;
+    }
+
+    .flex-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-cont {
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-outer, .image-outer-history{
+        margin: 20px;
+        width: 450px;
+        height: 450px;
+    }
+  
+    .image-outer img {
+        max-width: 450px;
+    }
+
+    .flex-text-parent {
+        text-align: center;
+        width: 80%;
+    }
+
+    .aprez-container {
+        columns: 2;
+    }
+
+
+  }
+
+  /* For medium sizes from 950px wide and down */
+@media screen and (max-width:950px) {
+   
+    #hero-container {
+        height: 150px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #hero-image {
+        height: 150px;
+        width: 100%;
+        background: url(../images/40-foot-hero-small.png) no-repeat center center/cover;
+    }
+   
+    .image-outer, .image-outer-history{
+        margin: 10px;
+        width: 350px;
+        height: 350px;
+    }
+  
+    .image-outer img {
+        max-width: 350px;
+    }
+}
