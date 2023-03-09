@@ -26,11 +26,16 @@ header {
     padding-left: 30px;
 }
 
+header > a {
+    text-decoration: none;
+}
+
 .flex-header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
+
 }
 
 #logo{
