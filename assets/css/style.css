@@ -190,11 +190,20 @@ hr {
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 0;
+    color: ivory;
 }
 
 .aprez-container img {
     width: 100%;
+    text-align: center;
+    color: ivory;
+
+}
+
+.aprez-container img:hover {
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
 }
 
 /* History Section */
