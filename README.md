@@ -28,6 +28,7 @@
 * ### Description of testing done
 * ### Responsive design
 * ### Bugs found a fixed
+    1. On deployment discovered images failed to load.  Solved by changing image address to relative rather than absolute.
 * ### Code andCSS validators
 * ### Testing User Stories from User Experience (UX) Section
     * Should I have a seperate section on planning?
@@ -37,7 +38,7 @@
         * Skeleton
         * Surface
 * ### Bugs found a not fixed yet
-
+    1. Tidal script on about page doesn't format correctly at small screen sides.  Don't know how to style a called JS yet.
 
 ## Deployment
 
