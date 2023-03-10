@@ -45,21 +45,26 @@ header > a {
 #logo{
     color: ivory;
     font-size: 2.5rem;
-    /* margin: .25rem; */
+}
+
+#logo-image {
+    width: 550;
+
 }
 
 /* Nav elements */
 
 #nav-menu {
-    float: right;
-    font-size: 1.5em;
+    /* float: right; */
+    font-size: 1.2em;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: right;
 }
 
 #nav-menu li {
-    margin-right: 30px;
+    margin: 0 15px;
     list-style-type: none;
 }
 
@@ -91,10 +96,26 @@ header > a {
 }
 
 #hero-image {
-    height: 650px;
+    height: 600px;
     width: 100%;
-    background: url(../images/40-foot-hero.webp) no-repeat center center/cover;
+    background: url(../images/40-foot-hero.webp) no-repeat center center;
+
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+/* zoom effext of hero image */
+    @keyframes hero-image-zoom {
+        from {
+            transform: scale(1)
+        }
+        to {
+            transform: scale(1.15)
+        }
+    }
+
+
 
 /* Healthy Habit section */
 
@@ -107,20 +128,11 @@ header > a {
     text-align: center;
     font-size: 1.8rem;
     padding: 20px 0;
-    /* align-items: center;
-    align-content: center; */
 }
 
-.section-title h2, .section-title h3 {
-    font-size: 1.8rem;
-}
 .section-title p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     padding: 10px 10%;
-}
-
-.sub-cont {
-    padding: 0px 30px;    
 }
 
 .flex-parent {
@@ -139,17 +151,21 @@ header > a {
     justify-content: center;
 }
 
+.sub-cont {
+    padding: 0px 30px;    
+}
+
 .sub-cont h3 {
     font-size: 1.8em;
 }
 
 .sub-cont p {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 50;
 }
 
 .sub-cont li {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 50;
 }
 
@@ -283,10 +299,10 @@ footer {
 
   #newsletter-form {
     clear: left;
-    background: url(../images/40-foot-form-background.webp);
+    background: url(../images/40-foot-form-background-2.webp);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 400px;
   }
 
   .signup-form {
@@ -351,9 +367,6 @@ footer {
         font-size: 2.5em;
     }
 
-    #nav-menu {
-        font-size: 1em;
-    }
 
     #hero-container {
         height: 300px;
@@ -418,26 +431,37 @@ footer {
 
   }
 
-  /* For medium sizes from 750px wide and down */
-@media screen and (max-width:750px) {
+  /* For medium sizes from 950px wide and down */
+@media screen and (max-width:950px) {
    
+    header {
+        padding-left: 5px;
+    }
     #logo {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 
-    #nav-menu {
-        font-size: 0.8em;
+    .flex-header {
+        flex-direction: column;
+        align-items: center;
     }
+    
+    #nav-menu {
+        padding: 6px 0;
+        align-items: center;
+    }
+
+
 
     #hero-container {
-        height: 150px;
+        height: 200px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
     
     #hero-image {
-        height: 150px;
+        height: 200px;
         width: 100%;
         background: url(../images/40-foot-hero-small.webp) no-repeat center center/cover;
     }
@@ -462,3 +486,18 @@ footer {
         max-width: 300px;
     }
 }
+
+  /* For medium sizes from 610px wide and down */
+  @media screen and (max-width:610px) {
+
+    .flex-header {
+        justify-content: center;
+    }
+
+    #logo-image {
+        width: 350px;
+        height: auto;
+    }
+
+
+  }
