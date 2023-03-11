@@ -48,8 +48,8 @@ header > a {
 }
 
 #logo-image {
-    width: 550;
-
+    width: 489px;
+    height: 61px;
 }
 
 /* Nav elements */
@@ -237,7 +237,7 @@ hr {
 /* History Section */
 
 #history-container {
-    background-color: #6399c9;
+    background-color: #A5DFFE;
     padding-bottom: 30px;
 }
 
@@ -362,11 +362,6 @@ footer {
   /* For tablet size screens - 1200px down */
 
   @media screen and (max-width:1200px) {
-    
-    #logo {
-        font-size: 2.5em;
-    }
-
 
     #hero-container {
         height: 300px;
@@ -409,14 +404,15 @@ footer {
         padding: 0 0 20px 0;
     }
 
-    .image-outer, .image-outer-history{
+    .image-outer{
         margin: 20px;
         width: 450px;
         height: 450px;
     }
   
-    .image-outer img, .image-outer-history img {
-        max-width: 450px;
+    .image-outer img {
+        width: 450px;
+        height: 450px;
     }
 
     .flex-text-parent {
@@ -436,9 +432,6 @@ footer {
    
     header {
         padding-left: 5px;
-    }
-    #logo {
-        font-size: 1.7em;
     }
 
     .flex-header {
@@ -476,14 +469,15 @@ footer {
         height: 400px;
     }
 
-    .image-outer, .image-outer-history{
+    .image-outer{
         margin: 10px;
         width: 300px;
         height: 300px;
     }
   
-    .image-outer img, .image-outer-history img {
-        max-width: 300px;
+    .image-outer img {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -496,7 +490,7 @@ footer {
 
     #logo-image {
         width: 350px;
-        height: auto;
+        height: 43.66px;
     }
 
 
