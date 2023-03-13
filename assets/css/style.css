@@ -63,6 +63,7 @@ header > a {
 #nav-menu li {
     margin: 0 15px;
     list-style-type: none;
+    display: inline;
 }
 
 #nav-menu a {
@@ -75,11 +76,8 @@ header > a {
     background-color: ivory;
 }
 
-#nav-menu li {
-    display: inline;
-}
 
-#nav-current {
+.nav-current {
     border-bottom: 1px solid ivory;
 }
 
@@ -265,12 +263,28 @@ footer {
     background-color: #3a3a3a;
 }
 
+.footer-nav a {
+    color: ivory;
+    text-decoration: none;
+    padding: 5px 20px 2px 20px;
+}
+
+.footer-nav a:hover {
+    background-color: ivory;
+    color: #3a3a3a;
+}
+
 .social {
     text-align: center;
     }
   
   .social li {
     display: inline;
+
+  }
+
+  .social ul {
+    padding-top: 10px;
   }
   
   .social i {
