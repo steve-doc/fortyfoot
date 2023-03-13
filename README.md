@@ -42,12 +42,66 @@ Portfolio Project 1 - Stephen Docherty
     I want to promote local businesses and attractions and attract advertising revenue.
 
 ### Scope
+    Website will
+        Provode consistent navigation across pages
+        Contain useful information on the benefits of swimming
+        Links to the websites of other activities/businesses in the area
+        Provide a history of the Forty Foot
+        A sign up form for a newsletter with call to action button
+        Interactive weather, tides and mapping inserts
+        Safety information
+        Directions
+        Links to social media platforms
+        High quality images
+        Conetent will be responsive on different device devices
 
 ### Structure
 
-### Skeleton
+#### Home Page
+    * Header Bar with Logo and Navigation links
+    * Hero image
+    * Healthy Habit Section - Images and benefits of Sea Swimming
+    * Aprés Swim Section - Images with links to other things to do after swimming
+    * Footer - Links to Social Media platforms
 
+#### History page
+    * Header Bar with Logo and Navigation links
+    * Images with narrative on different aspects of Forty Foot history
+    * Footer - Links to Social Media platforms
+
+#### About page
+    * Header Bar with Logo and Navigation links
+    * Hero image
+    * Newletter Signup forms with callto action button
+    * Live Weather insert
+    * Live Tide insert
+    * Safety Narrative
+    * Google map iframe
+    * Directions narrative
+    * Footer - Links to Social Media platforms
+
+### Skeleton
+![Home page desktop layout wireframe](assets/images/home-desktop-wireframe.png)
+![Home page mobile layout wireframe](assets/images/home-mobile-wireframe.png)
 ### Surface
+    Aim is to create a theme that is consistent with the Sea and nature and promotes a feeling of wellbeing.
+
+#### Background color
+    * Header and Footer both use #3a3a3a, a charcole color to frame the body.
+    * Body uses #A5DFFE.  A light blue green color sampled from the sky of the hero image to creaste consistency and in keeping with the sea theme.
+    * Have use a darker #6399c9, also sampled from hero image, to frame images and provide contrast tobody background.
+
+#### Font color
+    * Have consistently used #3a3a3a to contrast with light backgrounds. Softer color than using pure black.
+    * Have consistently used Ivory to contrast with dark backgrounds.  Again, less urgent than pure white.
+
+#### Fonts
+    * Using Quicksand for Headings, provides a clean look without disctracting from message.
+    * Using Hind Madurai for rest of text.  Was recommended as complimentary by https://fontjoy.com/
+    * Fonts imported from Google Fonts. 
+    
+#### Logo 
+    Created in Canva
 
 
 
