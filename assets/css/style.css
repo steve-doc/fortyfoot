@@ -111,7 +111,7 @@ header > a {
             transform: scale(1)
         }
         to {
-            transform: scale(1.15)
+            transform: scale(1.1)
         }
     }
 
@@ -207,14 +207,14 @@ hr {
     margin: 5px 0;
   }
 
-/* Aprez Swim Section */
+/* Apres Swim Section */
 
-#aprez-section {
+#apres-section {
     background-color: #6399c9;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
-.aprez-container {
+.apres-container {
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -222,14 +222,28 @@ hr {
     color: ivory;
 }
 
-.aprez-container img {
+.apres-photo-container {
+    padding-bottom: 15px;
+    text-align: Center;
+    color: ivory;
+    display: inline-block;
+}
+
+.apres-photo-container img {
     width: 100%;
     text-align: center;
+
+    margin-bottom: 15px;
+
+}
+
+.apres-photo-container a {
+    text-decoration: none;
     color: ivory;
 
 }
 
-.aprez-container img:hover {
+.apres-container img:hover {
     box-sizing: border-box;
     border: 2px solid greenyellow;
 }
@@ -420,7 +434,7 @@ footer {
         width: 80%;
     }
 
-    .aprez-container {
+    .apres-container {
         columns: 2;
     }
 
