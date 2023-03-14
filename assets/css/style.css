@@ -320,7 +320,7 @@ footer {
 .map {
     position: relative;
     padding-bottom: 10%;
-    height: 0;
+    /* height: 0; */
     overflow: hidden;
   }
 .map iframe {
@@ -438,6 +438,7 @@ footer {
 
     .directions {
         margin-top: 20px;
+        padding-bottom: 20px;
     }
 
     .directions li {
@@ -445,7 +446,7 @@ footer {
     }
 
     .sub-cont {
-        padding: 0 0 30px 0;
+        padding: 0 0 20px 0;
     }
 
     .image-outer{
