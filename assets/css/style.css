@@ -521,6 +521,10 @@ footer {
     .apres-container {
         columns: 1;
     }
+
+    .apres-photo-container {
+        width: 100%;
+    }
   }
 
     /* For medium sizes from 370px wide and down */
