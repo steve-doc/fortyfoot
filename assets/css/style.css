@@ -317,9 +317,23 @@ footer {
     color: #3a3a3a !important;
 }
 
-.map {
+/* .map {
     padding: 0 30px;  
-}
+} */
+
+.map {
+    position: relative;
+    padding-bottom: 10%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+  }
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
 
 .flex-parent-about {
     display: flex;
@@ -422,7 +436,7 @@ footer {
         justify-content: center;
     }
 
-    .map, .tide {
+    .tide {
         width: auto;
     }
 
