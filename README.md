@@ -163,6 +163,8 @@ Aim is to create a theme that is consistent with the Sea and nature and promotes
         Solved by using media queries to give images and container defined, small width and height at smaller screen sizes.
     4. Text on Aprés image titles was bleeding over itself onsmall screen formats. Found during user testing.
         Solved by using media query to switch gallery to single column, 100% width on small screens.
+    5. Some lines of text in imported Tidal JavaScript insert on the about page were displaying in a color that wasn't part of my theme.
+        Solved after some advise from a colleague during a peer review led me to use inspect to identify the specific identifier to target the text.  Added this to the style sheet and this corrected the problem.
     
 * ### Code andCSS validators
 * ### Testing User Stories from User Experience (UX) Section
