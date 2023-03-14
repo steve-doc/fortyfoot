@@ -517,6 +517,23 @@ footer {
         width: 350px;
         height: 43.66px;
     }
-
-
   }
+
+    /* For medium sizes from 370px wide and down */
+    @media screen and (max-width:370px) {
+    
+        #logo-image {
+            width: 250px;
+        }
+        .image-outer{
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+        }
+      
+        .image-outer img {
+            width: 200px;
+            height: 200px;
+        }
+
+      }
