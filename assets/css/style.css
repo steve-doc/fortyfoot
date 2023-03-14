@@ -517,6 +517,10 @@ footer {
         width: 350px;
         height: 43.66px;
     }
+
+    .apres-container {
+        columns: 1;
+    }
   }
 
     /* For medium sizes from 370px wide and down */
