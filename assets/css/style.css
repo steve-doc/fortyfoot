@@ -309,6 +309,13 @@ footer {
     padding: 30px 30px;
 }
 
+.tides-widget__container .tides-widget__copyright small, .tides-widget__container .tides-widget__copyright small a {
+    color: #3a3a3a !important;
+}
+
+.tides-widget__container .tides-widget__tables table caption {
+    color: #3a3a3a !important;
+}
 
 .map {
     padding: 0 30px;  
