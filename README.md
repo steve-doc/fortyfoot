@@ -190,6 +190,7 @@ Aim is to create a theme that is consistent with the Sea and nature and promotes
     sandycove-beack.png Dublin Guide https://www.dublinguide.ie/places/sandycove-beach
     killiney-hill.png Curious Ireland https://curiousireland.ie/killiney-obelisk/
     sup.jpg unsplash.com
+    wave.ico from favicon wedbsite https://www.favicon.cc/?action=icon&file_id=990257
 
 
 ### Acknowledgements
