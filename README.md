@@ -150,6 +150,8 @@ Aim is to create a theme that is consistent with the Sea and nature and promotes
 
 * ### User testing
 
+    Asked 10 people (friends and colleagues)
+
 
 * ### Responsive design
 * ### Bugs found a fixed
@@ -159,12 +161,14 @@ Aim is to create a theme that is consistent with the Sea and nature and promotes
         Solved by adding a container around images and adding padding bottom to image and container.
     3. Container border around circular image became eliptical at certain points when screen was narrowed for smaller devices.
         Solved by using media queries to give images and container defined, small width and height at smaller screen sizes.
+    4. Text on Aprés image titles was bleeding over itself onsmall screen formats. Found during user testing.
+        Solved by using media query to switch gallery to single column, 100% width on small screens.
     
 * ### Code andCSS validators
 * ### Testing User Stories from User Experience (UX) Section
 
 * ### Bugs found a not fixed yet
-    1. Tidal script on about page doesn't format correctly at small screen sides.  Don't know how to style a called JS yet.
+    1. Tidal script on about page doesn't format text color correctly.  Don't know how to style a called JS yet.
 
 ## Deployment
 
@@ -196,4 +200,5 @@ Aim is to create a theme that is consistent with the Sea and nature and promotes
 ### Acknowledgements
     
     Mentor
+    Cohort Facilitator - Special credit to Alan Bushell who gave great support and tips when testing the website.
     Tech Support
