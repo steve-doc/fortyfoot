@@ -1,3 +1,4 @@
+/* Import fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Hind+Madurai&family=Quicksand&display=swap');
 
 
@@ -13,10 +14,10 @@ body {
     color: #3a3a3a;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Quicksand, serif, sans-serif;
-    font-weight: 300;
-    color: black;
+    font-weight: 400;
+    color: #3a3a3a;
 }
 
 /* header */
@@ -39,11 +40,6 @@ header > a {
 
 }
 
-#logo{
-    color: ivory;
-    font-size: 2.5rem;
-}
-
 #logo-image {
     width: 489px;
     height: 61px;
@@ -52,12 +48,11 @@ header > a {
 /* Nav elements */
 
 #nav-menu {
-    /* float: right; */
     font-size: 1.2em;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: right;
+
 }
 
 #nav-menu li {
@@ -178,16 +173,6 @@ header > a {
     margin: 0 40px;
 }
 
-.image-outer-history {
-    /* width: 620px; */
-    border: 2px solid #3a3a3a;
-    background-color: #A5DFFE;
-    border-radius: 50%;
-    padding: 10px;
-    margin: 0 40px;
-}
-
-
 .one-third {
     width: 40%;
 }
@@ -202,7 +187,7 @@ hr {
     margin: 5px 0;
   }
 
-/* Apres Swim Section */
+/* Aprés Swim Section */
 
 #apres-section {
     background-color: #6399c9;
@@ -213,9 +198,7 @@ hr {
     clear: both;
     line-height: 0;
     column-count: 3;
-
     column-gap: 0;
-    color: ivory;
 }
 
 .apres-photo-container {
@@ -223,22 +206,17 @@ hr {
     width: 100%;
     height: 33%;
     text-align: Center;
-    color: ivory;
     display: inline-block;
 }
 
 .apres-photo-container img {
     width: 100%;
     text-align: center;
-
     margin-bottom: 15px;
-
 }
 
 .apres-photo-container a {
     text-decoration: none;
-    color: ivory;
-
 }
 
 .apres-container img:hover {
@@ -283,7 +261,6 @@ footer {
   
   .social li {
     display: inline;
-
   }
 
   .social ul {
@@ -468,8 +445,6 @@ footer {
     .apres-container {
         columns: 3;
     }
-
-
   }
 
   /* For medium sizes from 950px wide and down */
@@ -489,8 +464,6 @@ footer {
         align-items: center;
     }
 
-
-
     #hero-container {
         height: 200px;
         width: 100%;
@@ -506,24 +479,13 @@ footer {
 
     .section-title {
         font-size: 1.4em;
-        /* margin: 0 20px; */
-
     }
    
     #newsletter-form{
         height: 400px;
     }
 
-    .image-outer{
-        margin: 10px;
-        width: 300px;
-        height: 300px;
-    }
-  
-    .image-outer img {
-        width: 300px;
-        height: 300px;
-    }
+
 
     .apres-container {
         columns: 2;
@@ -549,6 +511,17 @@ footer {
     .apres-photo-container {
         width: 100%;
     }
+
+        .image-outer{
+        margin: 10px;
+        width: 300px;
+        height: 300px;
+    }
+  
+    .image-outer img {
+        width: 300px;
+        height: 300px;
+    }
   }
 
     /* For medium sizes from 370px wide and down */
@@ -556,6 +529,7 @@ footer {
     
         #logo-image {
             width: 250px;
+            height: auto;
         }
         .image-outer{
             margin: 10px;

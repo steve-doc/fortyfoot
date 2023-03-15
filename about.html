@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta Section -->
     <meta charset="UTF-8">
@@ -10,20 +11,24 @@
 
     <!-- Link to style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>40 Foot Swimming</title>
+
+    <!-- Link to tab icon -->
     <link rel="icon" type="image/x-icon" href="assets/images/wave-2.ico">
 </head>
+
 <body>
     <!-- Header Section -->
     <header class="flex-header">
-        <!-- Navigation Section -->
- 
- <!-- Logo -->
+
+        <!-- Logo -->
         <a href="index.html">
             <!-- <h1 id="logo">Forty Foot Sea Swimming</h1> -->
-            <img id="logo-image" src="assets/images/40-foot-logo-2.webp" alt="Crashing wave The 40 Foot logo">   
+            <img id="logo-image" src="assets/images/40-foot-logo-2.webp" alt="Crashing wave The 40 Foot logo">
         </a>
 
+        <!-- Navigation Bar -->
         <nav id="nav-menu">
             <ul>
                 <li>
@@ -42,12 +47,11 @@
     </header>
 
 
-
     <!-- Newsleter form section -->
     <section id="newsletter-form">
-    
+
         <form class="signup-form" action="https://formdump.codeinstitute.net/" method="POST">
-            
+
             <h2>40 Foot Newsletter</h2>
             <h3>Stay in touch with upcoming events</h3>
             <hr>
@@ -57,57 +61,72 @@
 
             <label for="lname">Last Name</label>
             <input class="text-input" id="lname" type="text" name="last_name" required>
-            
+
             <label for="email">Email Address</label>
             <input class="text-input" id="email" type="email" name="email_address" required>
-            
-            
+
+
             <input class="signup-button" type="submit" value="Newsletter Sign Up">
-            
+
         </form>
-        
+
     </section>
 
     <!-- weather widget -->
     <div>
-        <a class="weatherwidget-io" href="https://forecast7.com/en/53d29n6d12/sandycove/" data-label_1="SANDYCOVE" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-theme="original" >SANDYCOVE WEATHER</a>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/53d29n6d12/sandycove/" data-label_1="SANDYCOVE"
+            data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-theme="original">SANDYCOVE
+            WEATHER</a>
         <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
         </script>
     </div>
 
     <section class="flex-parent-about">
+
         <!-- tide widget -->
         <div class="tide one-third">
 
             <h2>Tides today</h2>
-            <script class="tide-table"  onload="createTideInstance('tidewidget__642', { includeMap: false, includeTitle: false, includeStyles: true, numberDays: 1 })" src="https://tides.today/en/c/ireland/county-dublin/dun-laoghaire/widget.js" async></script><div id="tidewidget__642"></div>
+            <script class="tide-table"
+                onload="createTideInstance('tidewidget__642', { includeMap: false, includeTitle: false, includeStyles: true, numberDays: 1 })"
+                src="https://tides.today/en/c/ireland/county-dublin/dun-laoghaire/widget.js" async></script>
+            <div id="tidewidget__642"></div>
 
         </div>
 
+        <!-- Safety Info -->
         <div class="sub-cont flex-text-parent one-third safety">
             <h2>Safety</h2>
             <hr>
             <p>
-                There are many safety warning signs at the 40 Foot.  Please take care to read them before entering the water.  The main hazards are the rocks, both visible and beneath the water, so pay particular attention when entering..  Higher tides are the preferred time to go swimming.  Please also pay attention to the weather forecast to avoid high waves.  It is always recommended you swim with another competent swimmer.
+                There are many safety warning signs at the 40 Foot. Please take care to read them before entering the
+                water. The main hazards are the rocks, both visible and beneath the water, so pay particular attention
+                when entering.. Higher tides are the preferred time to go swimming. Please also pay attention to the
+                weather forecast to avoid high waves. It is always recommended you swim with another competent swimmer.
             </p>
         </div>
     </section>
 
 
-<!-- Map Section -->
+    <!-- Directions Section -->
     <section class="sub-cont flex-parent-about">
 
-    <!-- map iframe -->
+        <!-- map iframe -->
         <div>
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.9995513630456!2d-6.115902883809036!3d53.28954307996714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486706479548bae7%3A0xd6e503e97fd06e11!2sForty%20Foot!5e0!3m2!1sen!2sie!4v1678125069488!5m2!1sen!2sie" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.9995513630456!2d-6.115902883809036!3d53.28954307996714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486706479548bae7%3A0xd6e503e97fd06e11!2sForty%20Foot!5e0!3m2!1sen!2sie!4v1678125069488!5m2!1sen!2sie"
+                width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
+        <!-- Directions narrative -->
         <div class="directions flex-text-parent one-third">
             <h2>How to get here</h2>
             <hr>
             <ul>
-                <li>Bicycle - Use the coastal mobility route where possible. Plenty of cycle parking. Also possible to use public bike rental apps.</li>
+                <li>Bicycle - Use the coastal mobility route where possible. Plenty of cycle parking. Also possible to
+                    use public bike rental apps.</li>
                 <li>DART - Sandycove and Glastule station - 10 min walk.</li>
                 <li>Bus - Take 59 bus and get off at stop 3052 on Elton Park - 5 min walk.</li>
                 <li>Car - Parking is extremely limited and confined to street parking.</li>
@@ -119,13 +138,10 @@
 
     </section>
 
-
-
-
-
-
     <!-- Footer Section -->
     <footer class="social">
+
+        <!-- Footer Nav Bar -->
         <nav class="footer-nav">
             <ul>
                 <li>
@@ -141,7 +157,8 @@
                 </li>
             </ul>
         </nav>
-        
+
+        <!-- Social media external links -->
         <ul>
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
@@ -161,7 +178,7 @@
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i>
-                    </a>
+                </a>
             </li>
         </ul>
     </footer>
@@ -169,4 +186,5 @@
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/67c1c04fa5.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
