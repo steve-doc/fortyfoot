@@ -28,6 +28,12 @@ A website designed to attract visitors to the historic Forty foot swimming locat
 
 To attract visitors to The Forty Foot swimming facility.  Promoting the benefits of swimming in the sea and specifically this area. Highlighting other attractions and activities and also sharing the unique history of the Forty Foot.
 
+The site provides value to users by sharing the benefits of visiting The Forty Foot, these include health benefits and access to other activities and resources.  Further value is provided by providing a history of the location.  Additionally the user will have the opportunity to sign up a newsletter.  Finally live information about weather, tides and location will all provide value to the user.
+
+Further value may provided to local business providers by link their sites. This may lead to literal value to wedsite owner throught the generation of advertising revenue.
+
+The primary audience for the site will be users interested in taking part in water sports, primarily sea swimming. Also user interested in connecting to nature and healthy living.  A further audience will be attracted by the history of the location and connection to literature. Also user may be attracted to the site when searching for some of the other activitie featured in the Aprés Swim section, such as Killiney Hill or Dun Laoghaire Baths.
+
 #### User Stories
 
 ##### Users 
@@ -140,14 +146,14 @@ All images have alt text labels to aid accessability.
 
 This section contains a series of links to external web sites with accompanying images and titles.  Arranged in 3 columns for larger screens, adjusting down to 2 the 1 column for smaller screens.
 
-All external links have aria labels to aid accessability.
+All external links have aria labels to aid accessability and open a seperate window/tab.
 
 * #### Footer
 ![Footer screen grab](assets/images/readme-images/footer.png)
 
 Contains a Navigation Bar and links to external social media sites, both horizantally centered and arranged on above the other.
 
-All external links have aria labels to aid accessability.
+All external links have aria labels to aid accessability and open a seperate window/tab.
 
 * #### History of 40 Foot Page
 ![History Section screen grab](assets/images/readme-images/history.png)
@@ -217,6 +223,7 @@ Used for sizing, cropping and format coversion of images.
 
 * All images have alt labels
 * Any links that take user to external website have aria labels
+* Care has been taken to ensure good contrast between text and back ground colors
 * Have used semantic html throughout
 
 ## <a name="testing">Testing</a>
@@ -321,7 +328,9 @@ Note: Converted all images from png/jpeg to webp as a result of this testing and
 ### Code
 
 Weather widget - Live weather feed taken from https://forecast7.com/en/53d29n6d12/sandycove/
+
 Tide Widget - Live tidal information taken from https://tides.today/en/c/ireland/county-dublin/dun-laoghaire
+
 Google Map iframe taken from https://www.google.com/maps 
     To make the map iframe responsive found code here https://www.labnol.org/internet/embed-responsive-google-maps/28333/
 

@@ -14,7 +14,12 @@ body {
     color: #3a3a3a;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Quicksand, serif, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
@@ -24,11 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-color: #3a3a3a;
-    padding: 10px;    
+    padding: 10px;
     padding-left: 30px;
 }
 
-header > a {
+header>a {
     text-decoration: none;
 }
 
@@ -96,14 +101,15 @@ header > a {
 }
 
 /* zoom effext of hero image */
-    @keyframes hero-image-zoom {
-        from {
-            transform: scale(1)
-        }
-        to {
-            transform: scale(1.1)
-        }
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1)
     }
+
+    to {
+        transform: scale(1.1)
+    }
+}
 
 
 
@@ -120,7 +126,7 @@ header > a {
     padding: 20px 0;
 }
 
-.section-title p{
+.section-title p {
     font-size: 1.3rem;
     padding: 10px 10%;
 }
@@ -142,7 +148,7 @@ header > a {
 }
 
 .sub-cont {
-    padding: 0px 30px;    
+    padding: 0px 30px;
 }
 
 .sub-cont h3 {
@@ -185,7 +191,7 @@ hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-  }
+}
 
 /* Aprés Swim Section */
 
@@ -257,36 +263,37 @@ footer {
 
 .social {
     text-align: center;
-    }
-  
-  .social li {
-    display: inline;
-  }
+}
 
-  .social ul {
+.social li {
+    display: inline;
+}
+
+.social ul {
     padding-top: 10px;
-  }
-  
-  .social i {
+}
+
+.social i {
     font-size: 1.3em;
     margin: 1%;
     padding: .5%;
     border-radius: 50%;
     color: ivory;
-  }
+}
 
-  .social i:hover {
+.social i:hover {
     color: #3a3a3a;
     background-color: ivory;
-  }
+}
 
-  /* about page */
+/* about page */
 
 .tide {
     padding: 30px 30px;
 }
 
-.tides-widget__container .tides-widget__copyright small, .tides-widget__container .tides-widget__copyright small a {
+.tides-widget__container .tides-widget__copyright small,
+.tides-widget__container .tides-widget__copyright small a {
     color: #3a3a3a !important;
 }
 
@@ -294,19 +301,21 @@ footer {
     color: #3a3a3a !important;
 }
 
+/* This was sourced from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 .map {
     position: relative;
     padding-bottom: 10%;
-    /* height: 0; */
     overflow: hidden;
-  }
+}
+
+/* This was sourced from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 .map iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100% !important;
     height: 100% !important;
-  }
+}
 
 .flex-parent-about {
     display: flex;
@@ -317,17 +326,17 @@ footer {
 
 
 
-  /* Newsletter form */
+/* Newsletter form */
 
-  #newsletter-form {
+#newsletter-form {
     clear: left;
     background: url(../images/40-foot-form-background-2.webp);
     background-size: cover;
     background-position: center;
     height: 400px;
-  }
+}
 
-  .signup-form {
+.signup-form {
     margin: 3% 3% 0 0;
     color: ivory;
     background-color: rgba(60, 60, 60, 0.6);
@@ -335,17 +344,18 @@ footer {
     position: absolute;
     left: 5%;
     padding: 15px;
-  }
+}
 
-  .signup-form h2, .signup-form h3 {
+.signup-form h2,
+.signup-form h3 {
     color: ivory;
-  }
+}
 
-  .signup-form hr {
+.signup-form hr {
     border-top: 1px solid ivory;
-  }
+}
 
-  .text-input {
+.text-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -353,37 +363,37 @@ footer {
     margin: 5px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-  }
+}
 
-  .signup-button {
+.signup-button {
     background-color: green;
     color: white;
     font-size: 20px;
     padding: 5px 10px;
     box-shadow: 3px 3px 5px black;
     border-radius: 15px;
-  }
+}
 
-  .signup-button:hover {
+.signup-button:hover {
     color: green;
     background-color: white;
-  }
+}
 
-  .signup-button:active {
+.signup-button:active {
     margin-left: 3px;
     margin-top: 3px;
     box-shadow: none;
-  }
+}
 
-  .signup-form .signup-button:active  {
+.signup-form .signup-button:active {
     padding-bottom: 2px;
-  }
+}
 
-  /* Media queries */
+/* Media queries */
 
-  /* For tablet size screens - 1200px down */
+/* For tablet size screens - 1200px down */
 
-  @media screen and (max-width:1200px) {
+@media screen and (max-width:1200px) {
 
     #hero-container {
         height: 300px;
@@ -391,7 +401,7 @@ footer {
         overflow: hidden;
         position: relative;
     }
-    
+
     #hero-image {
         height: 300px;
         width: 100%;
@@ -426,12 +436,12 @@ footer {
         padding: 0 0 20px 0;
     }
 
-    .image-outer{
+    .image-outer {
         margin: 20px;
         width: 450px;
         height: 450px;
     }
-  
+
     .image-outer img {
         width: 450px;
         height: 450px;
@@ -445,11 +455,11 @@ footer {
     .apres-container {
         columns: 3;
     }
-  }
+}
 
-  /* For medium sizes from 950px wide and down */
+/* For medium sizes from 950px wide and down */
 @media screen and (max-width:950px) {
-   
+
     header {
         padding-left: 5px;
     }
@@ -458,7 +468,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    
+
     #nav-menu {
         padding: 6px 0;
         align-items: center;
@@ -470,7 +480,7 @@ footer {
         overflow: hidden;
         position: relative;
     }
-    
+
     #hero-image {
         height: 200px;
         width: 100%;
@@ -480,8 +490,8 @@ footer {
     .section-title {
         font-size: 1.4em;
     }
-   
-    #newsletter-form{
+
+    #newsletter-form {
         height: 400px;
     }
 
@@ -492,8 +502,8 @@ footer {
     }
 }
 
-  /* For medium sizes from 610px wide and down */
-  @media screen and (max-width:610px) {
+/* For medium sizes from 610px wide and down */
+@media screen and (max-width:610px) {
 
     .flex-header {
         justify-content: center;
@@ -512,34 +522,35 @@ footer {
         width: 100%;
     }
 
-        .image-outer{
+    .image-outer {
         margin: 10px;
         width: 300px;
         height: 300px;
     }
-  
+
     .image-outer img {
         width: 300px;
         height: 300px;
     }
-  }
+}
 
-    /* For medium sizes from 370px wide and down */
-    @media screen and (max-width:370px) {
-    
-        #logo-image {
-            width: 250px;
-            height: auto;
-        }
-        .image-outer{
-            margin: 10px;
-            width: 200px;
-            height: 200px;
-        }
-      
-        .image-outer img {
-            width: 200px;
-            height: 200px;
-        }
+/* For medium sizes from 370px wide and down */
+@media screen and (max-width:370px) {
 
-      }
+    #logo-image {
+        width: 250px;
+        height: auto;
+    }
+
+    .image-outer {
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .image-outer img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
