@@ -19,6 +19,7 @@ A website designed to attract visitors to the historic Forty foot swimming locat
 5. [Testing](#testing)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
+8. [Acknowledgements](#acknowledge)
 
 
 ## <a name="ux">UX</a>
@@ -349,7 +350,7 @@ Note: Converted all images from png/jpeg to webp as a result of this testing and
     All other images were taken myself.
 
 
-### Acknowledgements
+### <a name="acknowledge">Acknowledgements</a>
     
     Mentor - Brian Macharia
     Cohort Facilitator - Special credit to Alan Bushell who gave great support and tips when testing the website.
