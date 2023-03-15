@@ -26,7 +26,7 @@ A website designed to attract visitors to the historic Forty foot swimming locat
 
 ###  Strategy
 
-    To attract visitors to The Forty Foot swimming facility.  Promoting the benefits of swimming in the sea and specifically this area. Highlighting other attractions and activities and also sharing the unique history of the Forty Foot.
+To attract visitors to The Forty Foot swimming facility.  Promoting the benefits of swimming in the sea and specifically this area. Highlighting other attractions and activities and also sharing the unique history of the Forty Foot.
 
 #### User Stories
 
@@ -261,20 +261,20 @@ Also three specific bugs were highlighted and solved as a result.
 3. I had noticed that some of the text in the Tidal Widget on the About page was a dark color and badly contrasted with the background color.  I had assumed because it was some imported Javascript that changing the color was outside my skillset at the moment.  However, one of the colleages, (Errors_a_plenty) in the peer review explained how to use inspect to identify that specific selector to target the text.  I implemented this in the style sheet and it resolved the problem.
 
 ### Bugs found a fixed
-    1. On deployment discovered images failed to load.  
-        Solved by changing image address to relative rather than absolute.
-    2. Title under Apres Swim images was overlapping images.
-        Solved by adding a container around images and adding padding bottom to image and container.
-    3. Container border around circular image became eliptical at certain points when screen was narrowed for smaller devices.
-        Solved by using media queries to give images and container defined, small width and height at smaller screen sizes.
-    4. Text on Aprés image titles was bleeding over itself onsmall screen formats. Found during user testing.
-        Solved by using media query to switch gallery to single column, 100% width on small screens.
-    5. Aprés swim images were not aligned correctly and became spaced out on larger screens.
-        Solved by resizing all images to the same size and using 100% width.
-    6. Some lines of text in imported Tidal JavaScript insert on the about page were displaying in a color that wasn't part of my theme.
-        Solved after some advise from a colleague during a peer review led me to use inspect to identify the specific identifier to target the text.  Added this to the style sheet and this corrected the problem.
-    7. Logo overran width of screen on mobile screen.
-        Solved using media query and changing image width.
+1. On deployment discovered images failed to load.  
+    Solved by changing image address to relative rather than absolute.
+2. Title under Apres Swim images was overlapping images.
+    Solved by adding a container around images and adding padding bottom to image and container.
+3. Container border around circular image became eliptical at certain points when screen was narrowed for smaller devices.
+    Solved by using media queries to give images and container defined, small width and height at smaller screen sizes.
+4. Text on Aprés image titles was bleeding over itself onsmall screen formats. Found during user testing.
+    Solved by using media query to switch gallery to single column, 100% width on small screens.
+5. Aprés swim images were not aligned correctly and became spaced out on larger screens.
+    Solved by resizing all images to the same size and using 100% width.
+6. Some lines of text in imported Tidal JavaScript insert on the about page were displaying in a color that wasn't part of my theme.
+    Solved after some advise from a colleague during a peer review led me to use inspect to identify the specific identifier to target the text.  Added this to the style sheet and this corrected the problem.
+7. Logo overran width of screen on mobile screen.
+    Solved using media query and changing image width.
     
 ### Code and CSS validators
 
@@ -320,37 +320,37 @@ Note: Converted all images from png/jpeg to webp as a result of this testing and
 
 ### Code
 
-    Weather widget - Live weather feed taken from https://forecast7.com/en/53d29n6d12/sandycove/
-    Tide Widget - Live tidal information taken from https://tides.today/en/c/ireland/county-dublin/dun-laoghaire
-    Google Map iframe taken from https://www.google.com/maps 
-        To make the map iframe responsive found code here https://www.labnol.org/internet/embed-responsive-google-maps/28333/
+Weather widget - Live weather feed taken from https://forecast7.com/en/53d29n6d12/sandycove/
+Tide Widget - Live tidal information taken from https://tides.today/en/c/ireland/county-dublin/dun-laoghaire
+Google Map iframe taken from https://www.google.com/maps 
+    To make the map iframe responsive found code here https://www.labnol.org/internet/embed-responsive-google-maps/28333/
 
 ### Content
 
-    History section based on 40ft wikipedia entry https://en.wikipedia.org/wi
+History section based on 40ft wikipedia entry https://en.wikipedia.org/wi
 
 
 ### Media
 
 #### Credit for image sources
 
-    40-foot-gentlemans-bathing.webp - The Irish Independant https://www.independent.ie/lifestyle/turning-the-tide-30113564.html 
+40-foot-gentlemans-bathing.webp - The Irish Independant https://www.independent.ie/lifestyle/turning-the-tide-30113564.html 
 
-    40-foot-women-rights.webp - Meanwhile in Ireland website https://meanwhileinireland.com/on-this-day-irish-women-protested-men-only-bathing-at-the-forty-foot/
+40-foot-women-rights.webp - Meanwhile in Ireland website https://meanwhileinireland.com/on-this-day-irish-women-protested-men-only-bathing-at-the-forty-foot/
 
-    40-foot-james-joyce.webp The Art of Dark Pod website https://artofdarkpod.com/the-underbred-james-joyce/
+40-foot-james-joyce.webp The Art of Dark Pod website https://artofdarkpod.com/the-underbred-james-joyce/
 
-    sandycove-beach.webp Dublin Guide https://www.dublinguide.ie/places/sandycove-beach
+sandycove-beach.webp Dublin Guide https://www.dublinguide.ie/places/sandycove-beach
 
-    killiney-hill.webp Curious Ireland https://curiousireland.ie/killiney-obelisk/
+killiney-hill.webp Curious Ireland https://curiousireland.ie/killiney-obelisk/
 
-    sup.webp unsplash.com
-    wave.ico from favicon wedbsite https://www.favicon.cc/?action=icon&file_id=990257
+sup.webp unsplash.com
+wave.ico from favicon wedbsite https://www.favicon.cc/?action=icon&file_id=990257
 
-    All other images were taken myself.
+All other images were taken myself.
 
 
 ### <a name="acknowledge">Acknowledgements</a>
-    
-    Mentor - Brian Macharia
-    Cohort Facilitator - Special credit to Alan Bushell who gave great support and tips when testing the website.
+
+* Mentor - Brian Macharia
+* Cohort Facilitator - Special credit to Alan Bushell who gave great support and tips when testing the website.
