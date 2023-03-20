@@ -7,7 +7,7 @@ A website designed to attract visitors to the historic Forty foot swimming locat
 
 ![Responsive simulator image](assets/images/readme-images/responsive-simulator.png)
 
-[Project Repository](https://github.com/steve-doc/40-foot#acknowledge)
+[Project Repository](https://github.com/steve-doc/40-foot)
 
 [Live Site](https://steve-doc.github.io/40-foot/)
 
