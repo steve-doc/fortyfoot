@@ -12,6 +12,9 @@ body {
     font-family: 'Hind Madurai', serif, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    max-width: 1850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,
@@ -173,7 +176,7 @@ header>a {
     width: 600px;
     height: 600px;
     border: 2px solid #3a3a3a;
-    background-color: #6399c9;
+    background-color: #6399c9d8;
     border-radius: 50%;
     padding: 10px;
     margin: 0 40px;
@@ -196,7 +199,7 @@ hr {
 /* Aprés Swim Section */
 
 #apres-section {
-    background-color: #6399c9;
+    background-color: #6399c9d8;
     padding-bottom: 15px;
 }
 
@@ -227,7 +230,8 @@ hr {
 
 .apres-container img:hover {
     box-sizing: border-box;
-    border: 2px solid greenyellow;
+    outline-offset: -2px;
+    outline: 2px solid greenyellow;
 }
 
 /* History Section */
@@ -301,16 +305,18 @@ footer {
     color: #3a3a3a !important;
 }
 
-/* This was sourced from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
+.directions {
+    padding-bottom: 30px;
+}
+
 .map {
-    position: relative;
-    padding-bottom: 10%;
-    overflow: hidden;
+    padding: 0 20px;
+    width: 40%;
 }
 
 /* This was sourced from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 .map iframe {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100% !important;
@@ -321,7 +327,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #6399c9;
+    background-color: #6399c9d8;
 }
 
 
@@ -341,6 +347,7 @@ footer {
     color: ivory;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
+    height: 310px;
     position: absolute;
     left: 5%;
     padding: 15px;
@@ -369,6 +376,7 @@ footer {
     background-color: green;
     color: white;
     font-size: 20px;
+    margin-top: 15px;
     padding: 5px 10px;
     box-shadow: 3px 3px 5px black;
     border-radius: 15px;
@@ -380,8 +388,8 @@ footer {
 }
 
 .signup-button:active {
-    margin-left: 3px;
-    margin-top: 3px;
+    margin-left: 18px;
+    margin-top: 18px;
     box-shadow: none;
 }
 
@@ -423,13 +431,13 @@ footer {
         width: auto;
     }
 
-    .directions {
-        margin-top: 20px;
-        padding-bottom: 20px;
-    }
-
     .directions li {
         text-align: left;
+    }
+
+    .map {
+        width: 80%;
+        padding: 30px 0;
     }
 
     .sub-cont {
@@ -507,6 +515,10 @@ footer {
 
     .flex-header {
         justify-content: center;
+    }
+
+    .tide {
+        padding: 30px 5px;
     }
 
     #logo-image {
