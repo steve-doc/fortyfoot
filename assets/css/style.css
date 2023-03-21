@@ -12,6 +12,7 @@ body {
     font-family: 'Hind Madurai', serif, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    /* setting maximum screen size to prevent over spacing of content on very large screens */
     max-width: 1850px;
     margin-left: auto;
     margin-right: auto;
@@ -296,6 +297,8 @@ footer {
     padding: 30px 30px;
 }
 
+/* targeting some inconsistent text color on parts of imported widget */
+
 .tides-widget__container .tides-widget__copyright small,
 .tides-widget__container .tides-widget__copyright small a {
     color: #3a3a3a !important;
@@ -316,7 +319,6 @@ footer {
 
 /* This was sourced from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 .map iframe {
-    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100% !important;
