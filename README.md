@@ -320,19 +320,62 @@ Note: Converted all images from png/jpeg to webp as a result of this testing and
 
 ## <a name="deployment">Deployment</a>
 
-* The site has been deployed using github pages.
-* Live site - https://steve-doc.github.io/40-foot/index.html
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/steve-doc/40-foot), the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select steve-doc/40-foot.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+
+### How to run this project locally
+
+To clone this project into Gitpod you will need:
+
+1. A Github account. [Create a Github account here](https://github.com/)
+2. Use the Chrome browser
+
+Then follow these steps:
+
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. After installation, restart the browser
+3. Log into [Gitpod](https://gitpod.com/) with your gitpod account.
+4. Navigate to the Project [GitHub repository](https://github.com/steve-doc/40-foot)
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode, Pycharm etc:
+
+1. Follow this link to the Project [GitHub repository](https://github.com/steve-doc/40-foot).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository.
+4. In your local IDE open the terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+git clone http<area>s://github.com/USERNAME/REPOSITORY
+
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## <a name="credits">Credits</a>
 
 ### Code
 
-Weather widget - Live weather feed taken from https://forecast7.com/en/53d29n6d12/sandycove/
+1. Weather widget - Live weather feed taken from https://forecast7.com/en/53d29n6d12/sandycove/
 
-Tide Widget - Live tidal information taken from https://tides.today/en/c/ireland/county-dublin/dun-laoghaire
+2. Tide Widget - Live tidal information taken from https://tides.today/en/c/ireland/county-dublin/dun-laoghaire
 
-Google Map iframe taken from https://www.google.com/maps 
-    To make the map iframe responsive found code here https://www.labnol.org/internet/embed-responsive-google-maps/28333/
+3. Google Map iframe taken from https://www.google.com/maps 
+    
+    -To make the map iframe responsive found code here https://www.labnol.org/internet/embed-responsive-google-maps/28333/
+
+4. Deployment method within README.md was adapted from Anna Greaves README.md https://github.com/AJGreaves/portrait-artist/blob/master/README.md
 
 ### Content
 

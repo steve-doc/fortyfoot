@@ -14,6 +14,7 @@ body {
     color: #3a3a3a;
     /* setting maximum screen size to prevent over spacing of content on very large screens */
     max-width: 1850px;
+    background-color: #A5DFFE;
     margin-left: auto;
     margin-right: auto;
 }
@@ -312,9 +313,15 @@ footer {
     padding-bottom: 30px;
 }
 
+.dir-cont {
+    padding: 3rem 0;
+}
+
 .map {
     padding: 0 20px;
     width: 40%;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 /* This was sourced from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
@@ -341,6 +348,7 @@ footer {
     background: url(../images/40-foot-form-background-2.webp);
     background-size: cover;
     background-position: center;
+    position: ;
     height: 400px;
 }
 
@@ -365,13 +373,15 @@ footer {
 }
 
 .text-input {
+    box-sizing: border-box;
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 25px;
+    height: 35px;
     margin: 5px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    padding: 5px 10px;
 }
 
 .signup-button {
@@ -438,7 +448,8 @@ footer {
     }
 
     .map {
-        width: 80%;
+        width: 100%;
+        height: 100vw;
         padding: 30px 0;
     }
 
