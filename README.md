@@ -287,7 +287,9 @@ Also three specific bugs were highlighted and solved as a result.
 
 All 3 pages have passed W3C HTML and CSS validators with no errors or warnings.
 
+[W3C HTML Validator](https://validator.w3.org/)
 
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 #### W3C HTML Test passed for index.html
 ![W3 HTML Test passed for index.html](assets/images/readme-images/w3-html-index.png)
@@ -307,7 +309,9 @@ All 3 pages have passed W3C HTML and CSS validators with no errors or warnings.
 #### W3C HTML Test passed for about.html
 ![W3C HTML Test passed for about.html](assets/images/readme-images/w3-css-about.png)
 
-All three pages were tested with Google Lighthouse with the following results.
+
+### All three pages were tested with Google Lighthouse with the following results.
+
 
 #### Lighthouse Result for index.html
 ![Lighthouse Result for index.html](assets/images/readme-images/lighthouse-index.png)

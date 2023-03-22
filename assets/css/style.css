@@ -317,6 +317,11 @@ footer {
     padding: 3rem 0;
 }
 
+.cont-404 {
+    text-align: center;
+    padding: 20%;
+}
+
 .map {
     padding: 0 20px;
     width: 40%;
@@ -407,11 +412,6 @@ footer {
 
 .signup-form .signup-button:active {
     padding-bottom: 2px;
-}
-
-.missing {
-    text-align: center;
-    padding: 20%;
 }
 
 /* Media queries */
