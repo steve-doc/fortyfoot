@@ -287,6 +287,8 @@ Also three specific bugs were highlighted and solved as a result.
 
 All 3 pages have passed W3C HTML and CSS validators with no errors or warnings.
 
+
+
 #### W3C HTML Test passed for index.html
 ![W3 HTML Test passed for index.html](assets/images/readme-images/w3-html-index.png)
 
