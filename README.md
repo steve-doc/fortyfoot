@@ -181,6 +181,11 @@ Organised into 3 parts
 
 2 & 3 are each flex boxes and are contained within another flex box.  Each moves from row mode to column mode for smaller screens.
 
+* #### 404 Page
+
+A 404.html page has been created to direct the user back to the home page if the try to access a non-existant page.
+![Screen grab of 404 Page message](assets/images/readme-images/40-foot-404-page.png)
+
 ### Future Features
 
 The feature below were dererred, partly to stay within the project dealines and also do to likely requiring back end coding skills not yet acquired.
