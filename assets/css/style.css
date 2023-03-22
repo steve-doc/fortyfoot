@@ -409,6 +409,11 @@ footer {
     padding-bottom: 2px;
 }
 
+.missing {
+    text-align: center;
+    padding: 30%;
+}
+
 /* Media queries */
 
 /* For tablet size screens - 1200px down */
