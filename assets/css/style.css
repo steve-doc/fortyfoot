@@ -349,23 +349,30 @@ footer {
 /* Newsletter form */
 
 #newsletter-form {
-    clear: left;
     background: url(../images/40-foot-form-background-2.webp);
     background-size: cover;
     background-position: center;
-    position: ;
     height: 400px;
+    position: relative;
 }
 
 .signup-form {
-    margin: 3% 3% 0 0;
+    /* margin: 3%; */
+    padding: 5%;
     color: ivory;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 80vw;
     height: 310px;
     position: absolute;
+    top: 5%;
     left: 5%;
     padding: 15px;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .signup-form h2,
@@ -381,9 +388,23 @@ footer {
     box-sizing: border-box;
     background: transparent;
     color: #fafafa;
-    width: 100%;
+    width: 300px;
+    display: block;
     height: 35px;
-    margin: 5px 0;
+    margin: 5px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+#interest {
+    box-sizing: border-box;
+    background: transparent;
+    color: #fafafa;
+    width: 300px;
+    display: block;
+    height: 170px;
+    margin: 5px;
     border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 5px 10px;
@@ -520,13 +541,20 @@ footer {
     }
 
     #newsletter-form {
-        height: 400px;
+        height: 600px;
     }
-
-
 
     .apres-container {
         columns: 2;
+    }
+
+    .signup-form {
+        height: 530px;
+        width: 350px;
+    }
+
+    .flex-container {
+        flex-direction: column;
     }
 }
 

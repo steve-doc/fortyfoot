@@ -11,6 +11,13 @@
 
     <!-- Link to style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('n36sqN4yqaW_9I6NR');
+        })();
+    </script>
 
     <title>40 Foot Swimming | About</title>
 
@@ -50,23 +57,30 @@
     <!-- Newsleter form section -->
     <section id="newsletter-form">
 
-        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="POST">
+        <form onsubmit="return sendMail(this);" class="signup-form">
 
-            <h2>40 Foot Newsletter</h2>
-            <h3>Stay in touch with upcoming events</h3>
+            <h2>Contact Form</h2>
+            <h3>Get in touch if you want to post something on fortyfoot.ie</h3>
             <hr>
-
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" type="text" name="first_name" required>
-
-            <label for="lname">Last Name</label>
-            <input class="text-input" id="lname" type="text" name="last_name" required>
-
-            <label for="email">Email Address</label>
-            <input class="text-input" id="email" type="email" name="email_address" required>
-
-
-            <input class="signup-button" type="submit" value="Newsletter Sign Up">
+            <div class="flex-container">
+                <div>
+                    <label for="name">Name</label>
+                    <input class="text-input" id="name" type="text" name="name" required>
+    
+                    <label for="email">Email Address</label>
+                    <input class="text-input" id="email" type="email" name="email_address" required>
+    
+                    <label for="tel">Telephone Number</label>
+                    <input class="text-input" id="tel" type="tel" name="tel" required>                
+                </div>
+                <div>
+                    <label for="interest">Your Interest</label>
+                    <textarea class="" name="interest" id="interest" rows="5"></textarea>
+    
+    
+                    <input class="signup-button" type="submit" value="Submit">                
+                </div>
+            </div>
 
         </form>
 
@@ -183,6 +197,8 @@
             </li>
         </ul>
     </footer>
+
+    <script src="./assets/scripts/sendEmail.js"></script>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/67c1c04fa5.js" crossorigin="anonymous"></script>
